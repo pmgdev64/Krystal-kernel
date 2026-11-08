@@ -1,0 +1,11 @@
+kernel.sym
+limine/
+esp/
+dist/
+iso_root/
+initrd-root/
+*.bak
+*.bak2
+*.bak3
+*.bak4
+*.bak5

@@ -1,0 +1,6 @@
+[target.x86_64-unknown-none]
+rustflags = [
+    "-C", "relocation-model=pic",
+    "-C", "link-arg=-pie",
+    "-C", "link-arg=--entry=driver_entry",
+]

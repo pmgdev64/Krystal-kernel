@@ -1,0 +1,14 @@
+[package]
+name = "gfxdemo"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+
+[dependencies]
+libgfx = { path = "../../libgfx" }
+
+[profile.dev]
+opt-level = 3
+debug-assertions = false
+overflow-checks = false

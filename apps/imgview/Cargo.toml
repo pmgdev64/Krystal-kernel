@@ -1,0 +1,22 @@
+[package]
+name = "imgview"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+libgfx    = { path = "../../libgfx" }
+libswmapi = { path = "../../libswmapi" }
+
+[[bin]]
+name = "imgview"
+path = "src/main.rs"
+
+[profile.release]
+panic = "abort"
+opt-level = "z"
+lto = true
+
+[profile.dev]
+opt-level = 3
+debug-assertions = false
+overflow-checks = false

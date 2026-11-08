@@ -1,0 +1,23 @@
+# Môi trường Build (Rust)
+/target
+**/*.rs.bk
+# Cargo.lock (Giữ nguyên nếu đây là app/OS, bỏ comment nếu là thư viện)
+
+# File rác, Backup, Tạm thời
+*.bak
+*.bak_*
+*.orig
+*.tmp
+*~
+.#*
+\#*\#
+
+# Logs
+*.log
+
+# OS & IDE (Tránh commit rác của hệ điều hành)
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

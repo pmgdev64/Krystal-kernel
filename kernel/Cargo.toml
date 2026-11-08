@@ -1,0 +1,9 @@
+[package]
+name = "kernel"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+limine = "0.5"
+bootvid-abi = { path = "../bootvid-abi" }
+driver-abi = { path = "../driver-abi" }

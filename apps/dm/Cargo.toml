@@ -1,0 +1,11 @@
+[package]
+name = "dm"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+
+[profile.dev]
+opt-level = 3
+debug-assertions = false
+overflow-checks = false
